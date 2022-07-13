@@ -37,6 +37,8 @@ img {
     grid-template-columns: repeat(3, 1fr);
     display: grid;
     grid-column-gap: 10px;
+    padding: 25px;
+
 }
 input {
     align-items: center;
