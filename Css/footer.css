@@ -1,0 +1,20 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: auto;
+    padding: 15px;
+
+}
+#footer-img {
+    width: 130px;
+}
+footer a {
+    color: #b2ff59;
+    font-size: 15px;
+    margin-left: 10px;
+}
+footer nav a:hover{
+    border-bottom: 1px #5c6bc0;
+}
+

@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1, h2, p {
+    font-family: cursive;
+    color: white;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+h2, h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+section p {
+    font-size: 18px;
+
+}
+section div {
+    padding: 5px 20px;
+}
+img {
+    width: 350px;
+}
+.container {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-column-gap: 10px;
+}
+input {
+    align-items: center;
+}
+
+.formInfo {
+    width: 500px;
+    border: 5px solid #6a1b9a;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
